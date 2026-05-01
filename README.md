@@ -1,14 +1,26 @@
-# astrbot-plugin-helloworld
+# astrbot-plugin-Study-agent
 
-AstrBot 插件模板 / A template plugin for AstrBot plugin feature
+This is a repository based on astrbot,which can help you with your study.
 
-> [!NOTE]
-> This repo is just a template of [AstrBot](https://github.com/AstrBotDevs/AstrBot) Plugin.
-> 
-> [AstrBot](https://github.com/AstrBotDevs/AstrBot) is an agentic assistant for both personal and group conversations. It can be deployed across dozens of mainstream instant messaging platforms, including QQ, Telegram, Feishu, DingTalk, Slack, LINE, Discord, Matrix, etc. In addition, it provides a reliable and extensible conversational AI infrastructure for individuals, developers, and teams. Whether you need a personal AI companion, an intelligent customer support agent, an automation assistant, or an enterprise knowledge base, AstrBot enables you to quickly build AI applications directly within your existing messaging workflows.
+# Main function
+This plugin uses a multi-agent approach to assist your learning. Its features include:
+
+# Quick start
+* method 1:
+    First, go to `Astrbots/data/plugins/`,then use `git clone https://github.com/StonePumpkins/astrbot_plugin_helloworld-test`
+   
+# upd
+2026.4.30 Create this repository
+2026.5.1 version 1.0.1
 
 # Supports
 
 - [AstrBot Repo](https://github.com/AstrBotDevs/AstrBot)
 - [AstrBot Plugin Development Docs (Chinese)](https://docs.astrbot.app/dev/star/plugin-new.html)
 - [AstrBot Plugin Development Docs (English)](https://docs.astrbot.app/en/dev/star/plugin-new.html)
+- Jinling High School Robots Club
+
+## Contributors
+- StonePumpkins
+
+Welcome new contribution for this repository,just pull requests.
