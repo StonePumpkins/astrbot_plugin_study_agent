@@ -70,3 +70,6 @@ class StudyAgent(Star):
 
 
 # 今天5.1先到这了 目前motto随机抽取功能还没好，motto.json文件今天搞好了，明天需要写async def motto里的随机抽取功能和输出
+ 
+
+ # 这个版本看下提交的人 我去 之前是我小号
