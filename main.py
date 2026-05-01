@@ -1,5 +1,6 @@
 import httpx
 import random
+import json
 import os
 from astrbot.api.event import filter, AstrMessageEvent
 from astrbot.api.star import Context, Star, register
