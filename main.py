@@ -57,19 +57,17 @@ class StudyAgent(Star):
             logger.error(f"未知错误: {e}")
             yield event.plain_result(f"😵 出错了：{str(e)}")
 
-    @filter.command("motto") #随机抽取 motto功能（未完成）
+    @filter.command("motto") #随机抽取 motto功能
     async def motto(self,event:AstrMessageEvent):
         try:
             with open(self.motto_file, "r", encoding="utf-8") as f:
                 mottos = json.load(f)
-            motto = random.sample(mottos,100)
-            yield event.plain_result(motto)
+            motto = random.choice(mottos) # 从mottos列表里随机抽取一句格言，random.choice是Python的标准库函数，可以从一个列表中随机选取一个元素
+            if isinstance(motto,str):
+                yield event.plain_result(motto) # 如果motto是字符串，直接输出
+            else:
+                yield event.plain_result(f"📜 {motto['content']}\n—— {motto.get('author')}")
         except Exception as e:
             logger.error(f"读取motto失败: {e}")
             yield event.plain_result("😵 无法获取格言，请稍后再试。")
 
-
-# 今天5.1先到这了 目前motto随机抽取功能还没好，motto.json文件今天搞好了，明天需要写async def motto里的随机抽取功能和输出
- 
-
- # 这个版本看下提交的人 我去 之前是我小号

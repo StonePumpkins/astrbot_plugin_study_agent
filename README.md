@@ -4,6 +4,9 @@ This is a repository based on astrbot,which can help you with your study.
 
 # Main function
 This plugin uses a multi-agent approach to assist your learning. Its features include:
+1. using commmands to chat with it:
+    - use "/motto" to get a random and interesting motto 
+2. have access to chat with AI
 
 # Quick start
 * method 1:
@@ -11,7 +14,10 @@ This plugin uses a multi-agent approach to assist your learning. Its features in
    
 # upd
 2026.4.30 Create this repository
+
 2026.5.1 version 1.0.1
+
+2026.5.2 version 1.0.2 added command /motto to get interesting mottos.
 
 # Supports
 
@@ -22,5 +28,6 @@ This plugin uses a multi-agent approach to assist your learning. Its features in
 
 ## Contributors
 - StonePumpkins
+- Kyron
 
 Welcome new contribution for this repository,just pull requests.
