@@ -13,18 +13,21 @@ This plugin uses a multi-agent approach to assist your learning. Its features in
     First, go to `Astrbots/data/plugins/`,then use `git clone https://github.com/StonePumpkins/astrbot_plugin_helloworld-test`
    
 # upd
-2026.4.30 Create this repository
+- 2026.4.30 Create this repository
 
-2026.5.1 version 1.0.1
+- 2026.5.1 version 1.0.1
 
-2026.5.2 version 1.0.2 added command /motto to get interesting mottos.
+- 2026.5.2 version 1.0.2 added command /motto to get interesting mottos.
+
+- 2026.5.2 version 1.1.0 This version allowed to use up to 4 agents to solve your study problem.
+This will help you form a new understanding of the question
 
 # Supports
 
 - [AstrBot Repo](https://github.com/AstrBotDevs/AstrBot)
 - [AstrBot Plugin Development Docs (Chinese)](https://docs.astrbot.app/dev/star/plugin-new.html)
 - [AstrBot Plugin Development Docs (English)](https://docs.astrbot.app/en/dev/star/plugin-new.html)
-- Jinling High School Robots Club
+- [Jinling High School Robots Club](http://www.jlhs.net)
 
 ## Contributors
 - StonePumpkins
