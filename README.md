@@ -22,6 +22,10 @@ This plugin uses a multi-agent approach to assist your learning. Its features in
 - 2026.5.2 version 1.1.0 This version allowed to use up to 4 agents to solve your study problem.
 This will help you form a new understanding of the question
 
+- 2026.5.3 added skill files mio-aoyama-perspective to the code,learnt how to use nuwa.skill to "cook" a person
+
+
+
 # Supports
 
 - [AstrBot Repo](https://github.com/AstrBotDevs/AstrBot)
