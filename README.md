@@ -24,6 +24,8 @@ This will help you form a new understanding of the question
 
 - 2026.5.3 version 1.1.1 added skill files mio-aoyama-perspective to the code,learnt how to use nuwa.skill to "cook" a person
 
+- 2026.5.6 launched the plugin 
+
 
 
 # Supports
